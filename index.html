@@ -6,19 +6,25 @@
 <title>Stone Tucumã</title>
 
 <style>
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:Arial,sans-serif;
+}
+
+body{
     background:linear-gradient(135deg,#00c853,#43a047);
     display:flex;
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    padding:20px;
 }
 
 .card{
     background:#fff;
-    width:90%;
+    width:100%;
     max-width:420px;
     border-radius:20px;
     padding:25px;
@@ -28,70 +34,69 @@ body{
 h1{
     text-align:center;
     color:#222;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 p{
     text-align:center;
     color:#666;
+    margin-bottom:20px;
 }
 
 .agent{
     border:1px solid #ddd;
     border-radius:15px;
     padding:15px;
-    margin-top:18px;
+    margin-bottom:15px;
 }
 
 .agent h3{
-    margin-top:0;
+    margin-bottom:12px;
+    color:#222;
 }
 
-a{
+.btn{
     display:block;
-    text-decoration:none;
     text-align:center;
     background:#00c853;
-    color:white;
-    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
     padding:12px;
+    border-radius:10px;
     margin-top:10px;
-    border-radius:8px;
+    font-weight:bold;
     transition:.3s;
 }
 
-a:hover{
+.btn:hover{
     background:#009624;
-    transform:scale(1.03);
 }
 </style>
-
 </head>
 
 <body>
 
 <div class="card">
 
-<h1>🟢 Stone Tucumã</h1>
-
+<h1>Stone Tucumã</h1>
 <p>Escolha um especialista</p>
 
 <div class="agent">
 <h3>Wilscley Duarte</h3>
-<a href="https://wa.me/5594992263131">📱 WhatsApp</a>
-<a href="mailto:wilscley.duarte@querostone.com.br">✉️ E-mail</a>
+<a class="btn" href="https://wa.me/5594992263131" target="_blank">📱 WhatsApp</a>
+<a class="btn" href="mailto:wilscley.duarte@querostone.com.br">✉️ E-mail</a>
 </div>
 
 <div class="agent">
 <h3>Igor</h3>
-<a href="https://wa.me/5594991225522">📱 WhatsApp</a>
-<a href="mailto:igor.sales@querostone.com.br">✉️ E-mail</a>
+<a class="btn" href="https://wa.me/5594991225522" target="_blank">📱 WhatsApp</a>
+<a class="btn" href="mailto:igor.sales@querostone.com.br">✉️ E-mail</a>
 </div>
 
 <div class="agent">
 <h3>Eduarda Andrade</h3>
-<a href="https://wa.me/5594992428756">📱 WhatsApp</a>
-<a href="mailto:eduarda.andrade@querostone.com.br">✉️ E-mail</a>
+<a class="btn" href="https://wa.me/5594992428756" target="_blank">📱 WhatsApp</a>
+<a class="btn" href="mailto:eduarda.andrade@querostone.com.br">✉️ E-mail</a>
 </div>
 
 </div>
